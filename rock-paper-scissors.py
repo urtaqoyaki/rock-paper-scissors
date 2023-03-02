@@ -22,8 +22,8 @@ while True:
     computer_choice = random.choice(options)
     
     print()
-    print(f"You chooses {player_choice}")
-    print(f"Computer chooses {computer_choice}.")
+    print(f"You choose {player_choice}")
+    print(f"Computer choose {computer_choice}.")
 
     # check winner
     if player_choice == computer_choice:
